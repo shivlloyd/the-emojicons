@@ -144,7 +144,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>The Emojipedia!</h1>
+      <h1>The Emojicons!</h1>
       <input
         placeholder="input emoji"
         value={inputValue}
