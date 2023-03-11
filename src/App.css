@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 224, 132),
+    #f44336,
+    #500d3f,
+    #263aaa
+  );
+  padding-bottom: 50px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: #ffebe7;
+  text-shadow: 2px 4px 4px #560000;
+}
+
+input {
+  padding: 2vh;
+  width: 100%;
+  border-radius: 0.5rem;
+  max-width: 350px;
+  font-size: 1rem;
+}
+
+span {
+  font-size: 2.5rem;
+  padding: 1px;
+  cursor: pointer;
+  text-shadow: 2px 4px 4px #560000;
+}
